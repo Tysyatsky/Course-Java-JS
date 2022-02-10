@@ -1,0 +1,49 @@
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+    <h1> Filters for image </h1>
+    <div class="center">
+    <p>Your image will be shown here</p>
+    <canvas id="canT">  </canvas>
+
+   </div>
+      <p>
+      
+      Filename
+<br>
+      <input type="file" multiple = "false" accept = "image/*" id="finput" onchange ="upload()"/> </p> <p> <input type="button" value = "Reset image" onclick="upload()"/>
+    <input type="button" value="Undo" onclick = "undo()"/></p>
+    <p> Resize <br>
+     <input type="button" value = "+"
+            onclick="resizePlus()">
+    <input type="button" value = "-"
+            onclick="resizeMinus()">
+    </p> <p>
+  
+    
+    </p>
+    <p>
+      Enter custom width:
+    <input type="text" value = "" placeholder="exp. 1000" onchange="resizeW(this.value)">
+    </p>
+    <p> Enter custom height:
+    <input type="text" value = "" placeholder="exp. 800" onchange="resizeH(this.value)">
+    </p>
+    <p> Custom color filter <input type = "color" onchange="printColor(event)" value="#ff0000" /> </p>
+    <p> Filters <br>
+            <input type="button" value="Make gray"
+             onclick="makeGray()"/>
+      <input type="button" value="Make red"
+             onclick="makeRed()"/>
+      <input type="button" value="Make rainbow"
+             onclick="makeRainbow()"/>
+      <input type="button" value="Make border"
+             onclick="makeBorder()"/>
+      <input type="button" value="Make blur"
+             onclick="smudge()"/>
+    </p>
+  </body>
+  </html>

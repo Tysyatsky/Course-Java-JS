@@ -1,0 +1,27 @@
+canvas {
+  border: 1px black solid;
+}
+
+input{
+  font-size: 16px;
+}
+
+p {
+  font-size: 24px;
+  color: #959F9F;
+  font-weight: bold;
+}
+
+body {
+  background-color: #434452;
+}
+
+h1{
+  color: #959F9F;
+  font-size:48px;
+  text-align: center;
+}
+.center {
+  text-align:center;
+  
+}
